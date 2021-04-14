@@ -1,4 +1,4 @@
-﻿(function (ninja) {
+(function (ninja) {
 	var status = ninja.status = function() {
 		var cryptoCase = "";
 		if (window.crypto && window.crypto.getRandomValues) {

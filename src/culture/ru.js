@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["ru"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "Активирован режим TESTNET",

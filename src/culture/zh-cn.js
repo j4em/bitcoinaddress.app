@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["zh-cn"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET EDITION ACTIVATED",

@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["jp"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "テストネット版が有効になりました。",

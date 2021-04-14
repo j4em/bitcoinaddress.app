@@ -1,4 +1,4 @@
-﻿ninja.seeder = {
+ninja.seeder = {
 	init: (function () {
 		document.getElementById("generatekeyinput").value = "";
 	})(),

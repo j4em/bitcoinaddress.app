@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["hu"] = {
 		// 02-MAR-2014 16:57
 		// javascript alerts or messages

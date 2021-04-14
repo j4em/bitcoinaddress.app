@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["el"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "ΕΝΕΡΓΗ ΕΚΔΟΣΗ TESTNET",

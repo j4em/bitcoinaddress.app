@@ -1,4 +1,4 @@
-﻿(function (ninja) {
+(function (ninja) {
 	var qrC = ninja.qrCode = {
 		// determine which type number is big enough for the input text length
 		getTypeNumber: function (text) {

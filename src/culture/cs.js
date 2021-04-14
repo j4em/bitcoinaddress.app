@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["cs"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET aktivován",

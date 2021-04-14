@@ -1,4 +1,4 @@
-﻿(function (translator) {
+(function (translator) {
 	translator.translations["es"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "Testnet se activa",
