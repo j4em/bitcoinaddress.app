@@ -25,6 +25,13 @@ END USER NOTES:
 
 Here is a signed list of file names and version history.
 
+2021-04-14: status ACTIVE
+bitcoinaddress.app-v4.0.0-SHA256-8d1ab30f9ee4ad02dfad647a32f1bef17591aca699e3474db4388eb62270bed2.html
+- bitcoinaddress.app
+- modifying the code style
+- refactor directory structure
+- replace 'grunt' with 'inline-stylesheets'
+
 2016-12-23: status ACTIVE
 bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html
  - remove support for IE8
