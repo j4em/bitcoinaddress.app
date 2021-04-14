@@ -26,7 +26,7 @@ END USER NOTES:
 Here is a signed list of file names and version history.
 
 2021-04-14: status ACTIVE
-bitcoinaddress.app-v4.0.0-SHA256-8d1ab30f9ee4ad02dfad647a32f1bef17591aca699e3474db4388eb62270bed2.html
+bitcoinaddress.app-v4.0.1-SHA256-528933de9433a361f9df058a049108b72dd8258a960b1c0b1af75bc5eee645b0.html
 - bitcoinaddress.app
 - modifying the code style
 - refactor directory structure

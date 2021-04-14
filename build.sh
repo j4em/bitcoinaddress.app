@@ -1,4 +1,4 @@
-version=v4.0.0
+version=v4.0.1
 npm install -g inline-scripts
 cd src
 inline-script-tags index.html out.html
