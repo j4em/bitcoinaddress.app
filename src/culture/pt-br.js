@@ -47,26 +47,26 @@
         // status html
         "statuslabelcryptogood": "&#10004; Boa!",
         "statuslabelcryptogood1": "Your browser can generate cryptographically random keys using window.crypto.getRandomValues", //TODO: please translate
-        "statusokcryptogood": "OK", 
-        "statuslabelcryptobad": "&times; Oh não!", 
+        "statusokcryptogood": "OK",
+        "statuslabelcryptobad": "&times; Oh não!",
         "statuslabelcryptobad1": "Your browser does NOT support window.crypto.getRandomValues. You should use a more modern browser with this generator to increase the security of the keys generated.",
-        "statusokcryptobad": "OK", 
+        "statusokcryptobad": "OK",
         "statuslabelunittestsgood": "&#10004; Boa!",
         "statuslabelunittestsgood1": "All synchronous unit tests passed.", //TODO: please translate
         "statusokunittestsgood": "OK",
-        "statuslabelunittestsbad": "&times; Oh não!", 
+        "statuslabelunittestsbad": "&times; Oh não!",
         "statuslabelunittestsbad1": "Some synchronous unit tests DID NOT pass. You should find another browser to use with this generator.", //TODO: please translate
-        "statusokunittestsbad": "OK", 
-        "statuslabelprotocolgood": "&#10004; Boa!", 
+        "statusokunittestsbad": "OK",
+        "statuslabelprotocolgood": "&#10004; Boa!",
         "statuslabelprotocolgood1": "You are running this generator from your local computer. <br />Tip: Double check you are offline by trying ", //TODO: please translate
-        "statusokprotocolgood": "OK", 
-        "statuslabelprotocolbad": "&#9888; Pense duas vezes!", 
+        "statusokprotocolgood": "OK",
+        "statuslabelprotocolbad": "&#9888; Pense duas vezes!",
         "statuslabelprotocolbad1": "You appear to be running this generator online from a live website. For valuable wallets it is recommended to", //TODO: please translate
-        "statuslabelprotocolbad2": "download", 
+        "statuslabelprotocolbad2": "download",
         "statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
-        "statusokprotocolbad": "OK", 
+        "statusokprotocolbad": "OK",
         "statuslabelkeypool1": "This is a log of all the Bitcoin Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
-        "statuskeypoolrefresh": "Atualizar", 
+        "statuskeypoolrefresh": "Atualizar",
         "statusokkeypool": "OK",
 
         // single wallet html
@@ -79,8 +79,8 @@
         "singletip3": "<b>Adicione fundos</b> para essa carteira ao indicar para outras pessoas enviarem bitcoins para o seu endereço Bitcoin.",
         "singletip4": "<b>Verifique seu saldo</b> visitando os sites blockchain.info ou blockexplorer.com e digitando o seu endereço Bitcoin.",
         "singletip5": "<b>Gaste seus bitcoins</b> visitando o site blockchain.info e esvaziando completamente o seu saldo de sua chave privada para sua conta no site. Você também pode gastar seus fundos ao baixar um cliente bitcoin p2p popular e importar sua chave privada para a carteira do aplicativo. Tenha em mente que quando você importa uma chave única para um cliente bitcoin p2p e gasta seus fundos, sua chave será agrupada com outras chavfes privadas no aplicativo de carteira. Quando você realizar uma transação o seu troco será enviado para outro endereço bitcoin dentro do seu aplicativo de carteira. Você deve então fazer backup da sua carteira em seu aplicativo e mantê-la em segurança, visto que seus bitcoins remanescentes agora serão armazenados nela. Um conselho do Satoshi Nakamoto é de que uma carteira nunca deve ser apagada.",
-        "singleshare": "COMPARTILHE", 
-        "singlesecret": "SECRETA", 
+        "singleshare": "COMPARTILHE",
+        "singlesecret": "SECRETA",
 
         // paper wallet html
         "paperlabelhideart": "Ocultar figura",
@@ -159,7 +159,7 @@
         "detaillabelprivmini": "Chave privada en formato mini (22, 26 ou 30 caracteres, inicia com 'S'):",
         "detaillabelpassphrase": "Senha BIP38",
         "detailbip38decryptbutton": "Descriptografar BIP38",
-        "detailbip38encryptbutton": "Criptografar em BIP38", 
+        "detailbip38encryptbutton": "Criptografar em BIP38",
         "detaillabelq1": "Como eu faço uma carteira usando um dado? O que é o formato B6?",
         "detaila1": "Uma parte importante ao criar um carteira Bitcoin é se assegurar que os números aleatórios usados para criar a carteira sejam realmente aleatórios. A aleatoriedade física é melhor do que a pseudo-aleatoriedade gerada por computador. A maneira mais fácil de gerar aleatoriedade física é com dados. Para criar um chave privada Bitcoin você precisa de apenas um dado de seis lados, o qual você jogará 99 vezes. A cada jogada, anote o valor do dado. Ao anotar os valores, siga as seguintes regras: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. Ao fazer isso, você está anotando esse grande número aleatório, sua chave privada, no formato base 6 (B6). Você pode então digitar essa chave privada em base 6 contendo 99 caracteres no campo de texto acima e clicar em Ver Detalhes. Você então verá o endereço Bitcoin associado com sua chave privada. Você deve também anotar sua chave privada no formato WIF, já que ele é mais amplamente utilizado."
     };

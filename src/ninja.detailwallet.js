@@ -176,7 +176,7 @@
                 document.getElementById("detailprivwif").innerHTML = wif;
                 btcKey.setCompressed(true);
                 var bitcoinAddressComp = btcKey.getBitcoinAddress();
-                var wifComp = btcKey.getBitcoinWalletImportFormat();			
+                var wifComp = btcKey.getBitcoinWalletImportFormat();
                 document.getElementById("detailpubkeycomp").innerHTML = btcKey.getPubKeyHex();
                 document.getElementById("detailaddresscomp").innerHTML = bitcoinAddressComp;
                 document.getElementById("detailprivwifcomp").innerHTML = wifComp;

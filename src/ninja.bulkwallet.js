@@ -68,7 +68,7 @@
 
                         // release thread to browser to render UI
                         setTimeout(bulk.batchCSV, 0);
-                        
+
                     });
                 }
                 else {
@@ -77,8 +77,8 @@
                     bulk.csv.push((bulk.csvRowLimit - bulk.csvRowsRemaining + bulk.csvStartIndex)
                                         + ",\"" + key.getBitcoinAddress() + "\",\"" + key.toString("wif")
                                         //+	"\",\"" + key.toString("wifcomp")    // uncomment these lines to add different private key formats to the CSV
-                                        //+ "\",\"" + key.getBitcoinHexFormat() 
-                                        //+ "\",\"" + key.toString("base64") 
+                                        //+ "\",\"" + key.getBitcoinHexFormat()
+                                        //+ "\",\"" + key.toString("base64")
                                         + "\"");
                     document.getElementById("bulktextarea").value = translator.get("bulkgeneratingaddresses") + bulk.csvRowsRemaining;
 

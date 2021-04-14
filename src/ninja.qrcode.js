@@ -49,7 +49,7 @@
         },
 
         // show QRCodes with canvas
-        // parameter: keyValuePair 
+        // parameter: keyValuePair
         // example: { "id1": "string1", "id2": "string2"}
         //		"id1" is the id of a div element where you want a QRCode inserted.
         //		"string1" is the string you want encoded into the QRCode.

@@ -2,7 +2,7 @@ bitcoinaddress.app
 Open Source JavaScript Client-Side Bitcoin Wallet Generator
 
 The bitcoinaddress.app file contains all the JavaScript/Css/Images embedded
-in the HTML document. Included in the file name is the file's version 
+in the HTML document. Included in the file name is the file's version
 number and hash.
 
 The bitcoinaddress.app software is available Open Source under the MIT License.
@@ -14,7 +14,7 @@ https://bitcointalk.org/index.php?topic=43496.0
 
 Donation Address: 18mNc7PhGa2Ceo7JZezHfUEaBmgVV88ZC1
 
-END USER NOTES: 
+END USER NOTES:
  1) For Bulk Wallet I recommended using Google Chrome, it's the fastest.
  2) Requires IE9+, Firefox, Chrome or sufficient JavaScript support.
  3) Mobile Safari only works with iPhone4 or newer devices.
@@ -51,7 +51,7 @@ bitaddress.org-v3.2.1-SHA256-42c3bcb643c451689e5bd1499ed4b516be2da06d2fe3886b0dd
 bitaddress.org-v3.2.0-SHA256-ad4fd171c647772aa76d0ce828731b01ca586596275d43a94008766b758e8736.html
  - switch languages without full page load
  - add BIP38 encryption to Bulk Wallet
- - use compressed addresses on Single/Paper/Bulk Wallet 
+ - use compressed addresses on Single/Paper/Bulk Wallet
  - add compressed address option on Brain Wallet
 
 2016-01-17: status ACTIVE
@@ -82,7 +82,7 @@ bitaddress.org-v2.9.10-SHA256-445e44cfd04c8f1ea8f732c3ae7277b0166fdb3e2109251c54
 
 2015-07-05: status ACTIVE
 bitaddress.org-v2.9.9-SHA256-90ddaf250f6302acb53945128e38225208af5a2fa7cfdf51519213e8b144a76d.html
- - improve tab usability. You can now get to the Brain Wallet and Wallet Details tabs before 
+ - improve tab usability. You can now get to the Brain Wallet and Wallet Details tabs before
    completing the entropy collection.
 
 2015-01-08: status ACTIVE
@@ -97,7 +97,7 @@ bitaddress.org-v2.9.7-SHA256-1b0f71dfc2e064426328c15c4dbd1f467cb26afe0e84841347a
 bitaddress.org-v2.9.6-SHA256-34728a9cec417cf8060423c77e8793e4aa133cf3d66a6b8073b4290cf1f4695c.html
  - Japanese translations for Split Wallet. Thanks dabura667.
  - remove promise to show MINI key on details tab. MINI key
-   will only be shown when it is provided since it cannot 
+   will only be shown when it is provided since it cannot
    be derived from other key formats.
  - fix README
  - Russian translations. Thanks e5faf2.
@@ -109,7 +109,7 @@ bitaddress.org-v2.9.6-SHA256-34728a9cec417cf8060423c77e8793e4aa133cf3d66a6b8073b
 
 2014-04-23: status ACTIVE
 bitaddress.org-v2.9.3-SHA1-7d47ab312789b7b3c1792e4abdb8f2d95b726d64.html
- - increased the HTML height to allow for greater range of mouse 
+ - increased the HTML height to allow for greater range of mouse
    seed values on large monitors. Thanks danbartram.
  - Japanese translations. Thanks dabura667.
 
@@ -136,7 +136,7 @@ bitaddress.org-v2.8.0-SHA1-87dcf19f02ee9fb9dd3a8c787bcf52eef944aa82.html
  - seed mouse movement as 16-bit number
  - whole seed pool initially filled by window.crypto.getRandomValues
  - added textbox as an alternative input source for entropy
- - address will not generate without a minimum amount of human added entropy 
+ - address will not generate without a minimum amount of human added entropy
    from mouse or keyboard
  - discard mouse movements less than 40ms apart
  - visualize points of entropy collection from the mouse
@@ -186,7 +186,7 @@ bitaddress.org-v2.3-SHA1-1d067dc4f3103622ca9de332c3c86fc57d76ec83.html
  - Vanity Wallet now supports compressed keys.
  - Elliptic Curve and Bitcoin.ECKey libaries now support compressed keys.
  - English Json used for translations is now output to a textarea when
-   you run the unit tests. 
+   you run the unit tests.
  - more unit tests, use ?unittests=true to run them.
 
 2012-12-30: status ACTIVE
@@ -200,9 +200,9 @@ bitaddress.org-v2.2-SHA1-d414530eea984e9ebdd40dc27af9078cd73dc3b3.html
 bitaddress.org-v2.1-SHA1-af431934553aeef3e042e796a31ee101cdabc496.html
  - Vanity Wallet now supports adding/multiplying of public/private keys.
    Compressed keys not supported.
- - refactored wallet HTML/JavaScript to make the code more modular. 
+ - refactored wallet HTML/JavaScript to make the code more modular.
    Now it's easier to add/remove a specific wallet.
- - reusable public and private key math has been extracted to 
+ - reusable public and private key math has been extracted to
    ninja.privateKey and ninja.publicKey
  - created unit tests
 
@@ -213,13 +213,13 @@ bitaddress.org-v2.0-SHA1-c0300a88d2de421106560185e4916f4eee6ed9df.html
 
 2012-10-11: status ACTIVE
 bitaddress.org-v1.9-SHA1-a487b495d710d6f617d688e5f758e40c8b6c510e.html
- - fixed Testnet Edition WIF and Compressed WIF private keys. It now prepends 
+ - fixed Testnet Edition WIF and Compressed WIF private keys. It now prepends
    the correct byte (0xEF) for testnet when activated.
 
 2012-10-07: status ACTIVE
 bitaddress.org-v1.8-SHA1-97d52a44eeb261e2398e98e1eed2bd56b99c845a.html
  - Paper Wallet Tab: Art wallet is now the default.
- - Paper Wallet Tab: The PNG has been resized to fit better into physical 
+ - Paper Wallet Tab: The PNG has been resized to fit better into physical
    wallets when printed.
  - Paper Wallet Tab: The PNG has been rendered using the Ubuntu font.
 
@@ -232,20 +232,20 @@ bitaddress.org-v1.7-SHA1-46215e8a2f026b784f29ea86c00c866e634a22fa.html
 
 2012-07-29: status ACTIVE
 bitaddress.org-v1.6-SHA1-162d1ff4fd1e09222cbaca6c282672ee6c195e1b.html
- - Added Brain Wallet Tab. Algorithm is SHA256(passphrase). 
+ - Added Brain Wallet Tab. Algorithm is SHA256(passphrase).
    Minimum passphrase length is 15 characters.
 
 2012-03-22: status ACTIVE
 bitaddress.org-v1.5-SHA1-f2e410251c8741ac65d29a1c6fb8ef6919b6ab8b.html
- - Wallet Details Tab: 
+ - Wallet Details Tab:
    coretechs fixed a bug with the display of the base64 private key
    coretechs added support for compressed keys
 
 2012-01-09: status ACTIVE
 bitaddress.org-v1.4-SHA1-5c120c0860032e88a8fd81b802d6f53a5fc082bf.html
- - Wallet Details Tab: Allow for a deterministic wallet to be created by entering a passphrase on 
-   the wallet details tab. If you input text that is not a valid private key you will 
-   be prompted and asked if you want to use the entered text as a passphrase to 
+ - Wallet Details Tab: Allow for a deterministic wallet to be created by entering a passphrase on
+   the wallet details tab. If you input text that is not a valid private key you will
+   be prompted and asked if you want to use the entered text as a passphrase to
    create a private key. If you select OK then it will perform a SHA256 of the passphrase
    to generate your private key.
  - Wallet Details Tab: Added QRCodes. Added Public Key.
@@ -260,7 +260,7 @@ bitaddress.org-v1.3-SHA1-88d9a17e6d6286d7840043b6df9980e85f44b8c0.html
 
 2011-10-12: status ACTIVE
 bitaddress.org-v1.2-SHA1-1770e5e8993cca823a2ad956e2aab5c291151692.html
- -Wallet Details Tab: Added extra check on validity of Wallet Import Format and 
+ -Wallet Details Tab: Added extra check on validity of Wallet Import Format and
   Base64 Private Keys.
 
 2011-10-11: status ACTIVE
@@ -274,7 +274,7 @@ bitaddress.org-v1.0-SHA1-8fc60a3ca4eb24c85c31b264e95a9298e41032c2.html
 2011-10-02: status ACTIVE
 bitaddress.org-v0.9-SHA1-aa61ca480288e1bda00f1f042d60a057880a2321.html
  -Added more entropy, all mouse movements in the window will add to the random seed pool.
- -Added PaperWallet tab. You can now generate multiple QRCode pairs per page. 
+ -Added PaperWallet tab. You can now generate multiple QRCode pairs per page.
 
 2011-09-22: status ACTIVE
 bitaddress.org-v0.8-SHA1-47b989b8a33407df14d21dbd00fad653e0161d6c.html
@@ -301,9 +301,9 @@ bitaddress.org-v0.5-SHA1-7ea8d0e32c3583d369dc4079443e0d6e215ac216.html
    Private keys there were less than 32 bytes were not being zero padded.
    They are now zero padded which fixes the bug in generating private keys.
  -Requires IE8+, Firefox, Chrome or sufficient JavaScript support.
- -Added function to build a CSV list of addresses and keys. 
+ -Added function to build a CSV list of addresses and keys.
    Not supported in the GUI yet.
- -Added a timeout to override the mouse move detection. Therefore, if the user 
+ -Added a timeout to override the mouse move detection. Therefore, if the user
    has not moved his mouse before a certain random expiry the address and key
    will then be generated. This helps for mobile devices.
 
@@ -315,7 +315,7 @@ bitaddress.org-v0.4-SHA1-9d3afda22f8cf526330c0387a77e4016fd050323.html
  -Added QRCode for Private Key Wallet Import Format
  -Added extra entrophy with mouse movement technique
  -Footer now hides when printing
- -QRCode shows with canvas, if canvas is not supported (IE8) then it shows 
+ -QRCode shows with canvas, if canvas is not supported (IE8) then it shows
   with a table. Printing of the table is not supported by most browsers.
 
 2011-09-13: status OFFLINE
