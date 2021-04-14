@@ -60,7 +60,7 @@ window.Bitcoin | MIT License
 
 MIT License
 
-Copyright (c) 2011-2016 bitaddress.org (pointbiz)
+Copyright (c) 2011-2016 bitaddress.org (pointbiz)  
 Copyright (c) 2021 bitcoinaddress.app (j4em)
 
 
