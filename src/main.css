@@ -192,7 +192,6 @@ input[type=checkbox] { position: relative; z-index: 20; }
     #brainpassphraseconfirm { width: 280px; position: relative; z-index: 20; }
     #brainpassphraseshow { position: relative; z-index: 20; }
     #brainview { position: relative; z-index: 20; }
-    #brainwarning {  }
     #detailcommands { padding: 10px 0; }
     #detailcommands span { padding: 0 10px; }
     #detailprivkey { width: 460px; position: relative; z-index: 20; }
