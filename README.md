@@ -1,10 +1,10 @@
-# bitaddress.org
+# bitcoinaddress.app
 JavaScript Client-Side Bitcoin Wallet Generator
 
 Now Bitcoin addresses and their corresponding private key can be conveniently 
 generated in a web browser.
 
-The bitaddress.org project provides an all-in-one HTML document with embedded
+The bitcoinaddress.app project provides an all-in-one HTML document with embedded
 JavaScript/Css/Images. The JavaScript is readable not minified and contains no
 XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the 
 JavaScript locally and trust that the JavaScript did not change after being 
@@ -35,10 +35,10 @@ END USER NOTES:
 
 Notice of Copyrights and Licenses:
 ---------------------------------------
-The bitaddress.org project, software and embedded resources are
-copyright bitaddress.org.
+The bitcoinaddress.app project, software and embedded resources are
+copyright bitcoinaddress.app.
 
-The bitaddress.org name and logo are not part of the open source
+The bitcoinaddress.app name and logo are not part of the open source
 license.
 
 Portions of the all-in-one HTML document contain JavaScript codes that
@@ -58,8 +58,11 @@ window.BigInteger |	BSD License
 window.QRCode | MIT License
 window.Bitcoin | MIT License
 
-The bitaddress.org software is available under The MIT License (MIT)
-Copyright (c) 2011-2013 bitaddress.org
+MIT License
+
+Copyright (c) 2011-2016 bitaddress.org (pointbiz)
+Copyright (c) 2021 bitcoinaddress.app (j4em)
+
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

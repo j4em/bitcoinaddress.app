@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 		combine: {
 			single: {
 				input: "./src/bitaddress-ui.html",
-				output: "./bitaddress.org.html",
+				output: "./bitcoinaddress.app.html",
 				tokens: [
 					{ token: "//biginteger.js", file: "./src/biginteger.js" },
 					{ token: "//bitcoinjs-lib.js", file: "./src/bitcoinjs-lib.js" },
@@ -66,7 +66,7 @@ module.exports = function (grunt) {
 					eol: 'lf'
 				},
 				files: {                // Files to process
-					'./bitaddress.org.html': ['./bitaddress.org.html']
+					'./bitcoinaddress.app.html': ['./bitcoinaddress.app.html']
 				}
 			}
 		}

@@ -40,7 +40,7 @@
 		"footerlabelgithub": "Repositorio GitHub",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Copyright bitaddress.org.",
+		"footerlabelcopyright1": "Copyright © 2021 bitcoinaddress.app. All rights reserved.",
 		"footerlabelcopyright2": "Copyright del código JavaScript: en el fuente.",
 		"footerlabelnowarranty": "Sin garantía.",
 

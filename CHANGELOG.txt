@@ -1,13 +1,13 @@
-bitaddress.org 
+bitcoinaddress.app
 Open Source JavaScript Client-Side Bitcoin Wallet Generator
 
-The bitaddress.org file contains all the JavaScript/Css/Images embedded
+The bitcoinaddress.app file contains all the JavaScript/Css/Images embedded
 in the HTML document. Included in the file name is the file's version 
 number and hash.
 
-The bitaddress.org software is available Open Source under the MIT License.
+The bitcoinaddress.app software is available Open Source under the MIT License.
 Visit the GitHub Repository for the full copyright and license information:
-https://github.com/pointbiz/bitaddress.org
+https://github.com/j4em/bitcoinaddress.app
 
 Bitcoin Forum thread:
 https://bitcointalk.org/index.php?topic=43496.0

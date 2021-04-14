@@ -41,7 +41,7 @@
 		"footerlabelgithub": "GitHub kódtár",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Copyright bitaddress.org.",
+		"footerlabelcopyright1": "Copyright © 2021 bitcoinaddress.app. All rights reserved.",
 		"footerlabelcopyright2": "Az egyes JavaScript kódok szerzőinek jogai a forráskódon belül találhatók meg.",
 		"footerlabelnowarranty": "Garancia nincs.",
 
